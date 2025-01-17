@@ -58,7 +58,7 @@ It should also work with Ubuntu for Pi, or Arch Linux, but has not been tested o
 
 ### Pi-hole
 
-Visit the Pi's IP address (e.g. http://192.168.1.10/admin) and use the `pihole_password` you configured in your `config.yml` file. An existing pi-hole installation can be left unaltered by disabling the setup of this project's installation in your `config.yml` (`pihole_enable: false`)
+Visit the Pi's IP address (e.g. http://192.168.1.10:81/admin) and use the `pihole_password` you configured in your `config.yml` file. An existing pi-hole installation can be left unaltered by disabling the setup of this project's installation in your `config.yml` (`pihole_enable: false`)
 
 ### Grafana
 
